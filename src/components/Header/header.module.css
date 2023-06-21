@@ -1,0 +1,42 @@
+.space {
+  height: 3rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.menuLeft {
+  display: inline-flex;
+  gap: 3rem;
+  cursor: pointer;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.menuLeft span {
+  font-weight: 600;
+}
+
+.menuRight {
+  display: inline-flex;
+  gap: 3rem;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.menuRight span {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid black;
+}
