@@ -1,0 +1,39 @@
+.footer {
+  background-color: var(--PrimaryColor);
+  width: 100%;
+  margin-top: -5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.inner__right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inner__right h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.inner__right p {
+  color: white;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
