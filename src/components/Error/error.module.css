@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container img {
+  height: 50%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+.container h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  margin-top: -1rem;
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import classes from "./app.module.css";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Error from "./components/Error/Error";
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -23,7 +24,7 @@ const App = () => {
   }, []);
 
   if (!isMobile) {
-    return <h1>kurang</h1>;
+    return <Error />;
   }
 
   return (
