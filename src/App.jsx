@@ -3,7 +3,7 @@ import classes from "./app.module.css";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Error from "./components/Error/Error";
-import Footer from "./components/Footer/footer";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
